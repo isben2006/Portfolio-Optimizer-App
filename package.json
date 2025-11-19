@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "recharts": "^3.4.1",
+    "uvicorn": "^0.0.1-security"
+  }
+}

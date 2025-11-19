@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  min-height: 100vh;       /* full viewport height */
+  margin: 0;               /* remove default body margin */
+  background-color: #f9f9f9; /* optional, nice background */
+}
+/* App container */
+.app-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Label */
+.label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Input field */
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button */
+.submit-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #005fa3;
+}
+
+/* Result container */
+.result-container {
+  margin-top: 20px;
+}
+
+/* Result table */
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.result-table th,
+.result-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  margin-top: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
