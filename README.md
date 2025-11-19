@@ -41,3 +41,6 @@ A full-stack application for mean-variance portfolio optimization with optional 
    npm run dev
    ```
 ## 📸 Screenshots
+![screensho1](screenshot1.png)
+![screensho2](screenshot2.png)
+![screensho3](screenshot3.png)
