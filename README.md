@@ -12,9 +12,8 @@ A full-stack application for mean-variance portfolio optimization with optional 
 2. App fetches historical price data
 3. Expected returns + covariance matrix are computed
 4. Optimization solves for:
-   * Minimum variance portfolio
-   * Maximum return for a given risk
-   * (Optional) Short-selling constraints
+   * Optimal portfolio weights maximizing expected return for a given risk
+   * Optional short-selling constraints (long-only or long-short portfolios)
 5. Final optimal weights are displayed in a table and visualized with an interactive pie chart.
 ## 🛠️ Tech Stack
 - **Frontend:** React, JavaScript, CSS
